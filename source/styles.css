@@ -1,0 +1,68 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+section {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Collapsible sections */
+.collapsible-content {
+    display: none;
+    margin-left: 20px;
+}
+
+h2, h3 {
+    cursor: pointer;
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 0;
+}
+
+h3 {
+    margin-left: 15px;
+}
+
+/* Table of Contents */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #fafafa;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+#toc-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#toc-list li {
+    margin: 5px 0;
+}
+
+#toc-list li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#toc-list li a:hover {
+    text-decoration: underline;
+}
